@@ -1,0 +1,22 @@
+.cards{
+    display: grid;
+    grid-template-columns:repeat(4 , 1fr);
+    gap: 20px;
+    background: url(./meteorito-1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 20px;
+}
+.col{
+    border: 2px solid white;
+    font: oblique bold 120% cursive;
+    color:white;
+}
+.boton{
+    background-color: transparent;
+    color: white;
+  border:2px solid white;
+  font-size: 18px; 
+}
